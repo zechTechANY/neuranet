@@ -65,12 +65,10 @@
                 <div class="contact-left">
                     <h3>Xabaringizni jo'nating.</h3>
                   
-            <$.post('pewpietuber@gmail.com',  
-       { myData: 'This is my data.' }, 
-       function(data, status, xhr) {   
-                alert('status: ' + status + ', data: ' + data.responseData);
-            },
-       'json'); >
+            <form action="mailto:neuranetuz@gmail.com"
+		  method="post"
+		  enctype="multipart/form-data"
+		  name="EmailForm">
                         <div class="input-row">
                             <div class="input-group">
                                 <label><b>Ism</b></label>
