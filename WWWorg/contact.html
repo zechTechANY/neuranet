@@ -65,7 +65,12 @@
                 <div class="contact-left">
                     <h3>Xabaringizni jo'nating.</h3>
                   
-            <form action="https://neuranetuz@gmail.com" method="post">
+            <$.post('pewpietuber@gmail.com',  
+       { myData: 'This is my data.' }, 
+       function(data, status, xhr) {   
+                alert('status: ' + status + ', data: ' + data.responseData);
+            },
+       'json'); >
                         <div class="input-row">
                             <div class="input-group">
                                 <label><b>Ism</b></label>
