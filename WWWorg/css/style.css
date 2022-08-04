@@ -195,6 +195,16 @@ body
     color: #fff;
 }
 
+.call-action-bg .col-md-12  a{
+    color:#fff;
+}
+    
+.call-action-bg .col-md-12  p{
+    column-count: 6;
+    column-gap: 30px;
+    row-gap: 20px; 
+}
+
 .call-action-color .main_heading h1
 {
 	color: #fff;
