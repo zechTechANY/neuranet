@@ -76,13 +76,9 @@ body
 }
 .slide-text  a{
     color:#fff;
+	columns: 6;
 }
     
-.slide-text  p{
-    column-count: 6;
-    column-gap: 20px;
-    row-gap: 12px; 
-}
 
 
 .slide-text p
