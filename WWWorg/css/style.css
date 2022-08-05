@@ -76,7 +76,6 @@ body
 }
 .slide-text  a{
     color:#fff;
-	columns: 6;
 }
     
 
@@ -188,6 +187,10 @@ body
     line-height: 30px;
     font-weight: 300;
     background-size: cover;    
+}
+
+.call-action-bg  a{
+    color:#fff;
 }
 
 .call-action-color {
