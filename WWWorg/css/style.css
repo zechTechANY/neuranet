@@ -80,8 +80,8 @@ body
     
 .slide-text  p{
     column-count: 6;
-    column-gap: 30px;
-    row-gap: 20px; 
+    column-gap: 20px;
+    row-gap: 12px; 
 }
 
 
